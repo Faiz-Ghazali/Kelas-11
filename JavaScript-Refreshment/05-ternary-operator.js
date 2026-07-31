@@ -1,9 +1,10 @@
 const name = 0;
 if (name) {
     console.log("a")
-} else {
+} else if (name === 0) {
     console.log("b")
+} else {
+    console.log("c")
 }
-console.log(typeof name)
-let hasilnama = name ? "a" : "b"
+let hasilnama = name ? "a" : (name === 0 ? "b" : "c")
 console.log(hasilnama)
