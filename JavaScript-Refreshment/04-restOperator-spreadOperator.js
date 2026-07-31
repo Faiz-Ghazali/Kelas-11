@@ -16,3 +16,5 @@ const arrays = [...ang, ...ang2];
 const arrays2 = [ang, ang2];
 console.log(arrays);
 console.log(arrays2);
+const newObj = {...arrays, arrays2};
+console.log(newObj);
