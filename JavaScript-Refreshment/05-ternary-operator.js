@@ -5,5 +5,5 @@ if (name) {
     console.log("b")
 }
 console.log(typeof name)
-let hasilnama = nama ? "a" : "b"
+let hasilnama = name ? "a" : "b"
 console.log(hasilnama)
