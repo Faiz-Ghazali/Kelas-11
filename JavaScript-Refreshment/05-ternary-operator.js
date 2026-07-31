@@ -1,4 +1,4 @@
-const name = 0;
+const name = 1;
 if (name) {
     console.log("a")
 } else if (name === 0) {
