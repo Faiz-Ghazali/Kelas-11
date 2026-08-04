@@ -19,3 +19,5 @@ function penambahan(numberOne, numberTwo) {
     return numberOne + numberTwo;
 }
 console.log(penambahan(10, 20));
+const pertambahan = (number1, number2) => number1 + number2;
+console.log(pertambahan(10, 20));
