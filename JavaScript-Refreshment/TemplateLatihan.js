@@ -30,10 +30,10 @@ const [angka1, angka2, angka3] = angka;
 console.log(angka1);
 const siswa = {
     nama: "Ahmad",
-    umur: 16
+    Umur: 16
 };
 console.log(siswa.nama);
-console.log(siswa.umur);
-const {nama, umur} = siswa;
+console.log(siswa.Umur);
+const {nama, Umur} = siswa;
 console.log(nama);
-console.log(umur);
+console.log(Umur);
