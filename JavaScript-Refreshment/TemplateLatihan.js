@@ -20,4 +20,4 @@ function penambahan(numberOne, numberTwo) {
 }
 console.log(penambahan(10, 20));
 const pertambahan = (number1, number2) => number1 + number2;
-console.log(pertambahan(10, 20));
+console.log(pertambahan(5, 5));
