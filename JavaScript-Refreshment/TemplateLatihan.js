@@ -1,2 +1,3 @@
 const umur = undefined;
-console.log(umur);
+
+console.log(umur ?? 18);
