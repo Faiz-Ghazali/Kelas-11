@@ -14,3 +14,8 @@ function tampilkanAngka(...angka) {
   console.log(angka);
 }
 tampilkanAngka(1, 2, 3, 4, 5);
+//* soal 4
+function penambahan(numberOne, numberTwo) {
+    return numberOne + numberTwo;
+}
+console.log(penambahan(10, 20));
