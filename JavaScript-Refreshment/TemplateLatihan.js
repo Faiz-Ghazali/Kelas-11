@@ -10,3 +10,7 @@ const buah1 = ["Apel", "Jeruk"];
 const buah2 = ["Mangga", "Pisang"]; 
 const semuaBuah = [...buah1, ...buah2];
 console.log(semuaBuah);
+function tampilkanAngka(...angka) {
+  console.log(angka);
+}
+tampilkanAngka(1, 2, 3, 4, 5);
