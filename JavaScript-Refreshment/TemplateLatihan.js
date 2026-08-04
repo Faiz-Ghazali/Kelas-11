@@ -37,3 +37,8 @@ console.log(siswa.Umur);
 const {nama, Umur} = siswa;
 console.log(nama);
 console.log(Umur);
+//* soal 6
+const nama1 = "Ahmad";
+const umur1 = 16;
+const data = `ini ${nama1} dan umurnya ${umur1}`
+console.log(data);
