@@ -1,23 +1,11 @@
+import Hero from './components/Hero.jsx'
+import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
 function Halo() {
   return (
     <>
     <h1>Halo Dunia </h1>
     </>
-  )
-}
-function Navbar() {
-  return (
-    <h1>Ini Navbar</h1>
-  )
-}
-function Hero() {
-  return (
-    <h1>Ini Hero</h1>
-  )
-}
-function Footer() {
-  return (
-    <h1>Ini Footer</h1>
   )
 }
 function App() {
