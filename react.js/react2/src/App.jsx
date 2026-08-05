@@ -8,5 +8,11 @@ function App() {
     </>
   )
 }
-
+export default function Halo() {
+  return (
+    <>
+    <h1>Halo Dunia </h1>
+    </>
+  )
+}
 export default App
