@@ -3,7 +3,7 @@ function App() {
   return (
     <>
      <div className="color">
-      <p style={{fontSize: '24px'}}>Hello World </p>
+      <p>Hello World </p>
       </div>
     </>
   )
