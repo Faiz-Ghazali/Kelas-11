@@ -2,8 +2,9 @@ function App() {
 
   return (
     <>
-     <div className="color">
-      <p>Hello World </p>
+     <div>
+      <p className="bg-amber-300">Hello World </p>
+      Lorem
       </div>
     </>
   )
