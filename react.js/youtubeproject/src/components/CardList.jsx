@@ -17,6 +17,7 @@ export default function CardList() {
                         <div className="flex items-start gap-3 mt-3">
                             <div className="h-10 w-10 rounded-full bg-neutral-700 shrink-0"></div>
                             <div className="flex-1">
+                                <h1 className="text-lg font-bold text-white">Video Title</h1>
                                 <h3 className="text-sm font-semibold text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h3>
                                 <p className="text-xs text-neutral-400 mt-1">Channel Name • 1.2M views • 2 days ago</p>
                             </div>
