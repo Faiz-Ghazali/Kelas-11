@@ -18,7 +18,7 @@ export default function Navbar() {
                         <span className="font-semibold hidden sm:inline">YouTube</span>
                     </a>
                 </div>
-
+                
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-full max-w-xl hidden sm:flex items-center">
                     <div className="flex flex-1 items-center border border-neutral-700 rounded-full overflow-hidden">
                         <input
@@ -53,8 +53,10 @@ export default function Navbar() {
                     </button>
 
                     <button className="p-2 rounded-full hover:bg-neutral-800">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0 1 18 14.158V11a6 6 0 1 0-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h11z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-bell">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                            <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
                         </svg>
                     </button>
 
