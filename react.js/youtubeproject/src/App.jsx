@@ -10,12 +10,7 @@ function App() {
       <Category />
       <CardList />
       <CardList />
-      <CardList />
-      <CardList />
-      <CardList />
-      <CardList />
-      <CardList />
-      <CardList />
+      
     </>
   )
 }
