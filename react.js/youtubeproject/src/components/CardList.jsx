@@ -1,5 +1,5 @@
 export default function CardList() {
-    const cards = new Array(8).fill(0)
+    const cards = new Array(4).fill(0)
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-6">
