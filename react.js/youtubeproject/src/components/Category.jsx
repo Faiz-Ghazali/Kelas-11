@@ -4,7 +4,7 @@ export default function Category() {
     ]
 
     return (
-        <div className="bg-neutral-800 py-3 mt-4">
+        <div className="bg-neutral-800 py-3 ">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="overflow-x-auto">
                     <div className="inline-flex gap-3 items-center">
