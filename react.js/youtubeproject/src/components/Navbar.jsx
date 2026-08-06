@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <nav className="bg-neutral-900 text-white px-4 py-2">
-            <div className="max-w-7xl mx-auto flex items-center justify-between">
+            <div className="max-w-7xl mx-auto flex items-center justify-between relative">
                 <div className="flex items-center gap-3">
                     <button className="p-2 rounded hover:bg-neutral-800">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -19,8 +19,8 @@ export default function Navbar() {
                     </a>
                 </div>
 
-                <div className="flex-1 max-w-xl mx-4 hidden sm:flex items-center">
-                    <div className="flex flex-1 items-center border border-neutral-700 rounded-l-full rounded-r-full overflow-hidden">
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-full max-w-xl hidden sm:flex items-center">
+                    <div className="flex flex-1 items-center border border-neutral-700 rounded-full overflow-hidden">
                         <input
                             className="flex-1 bg-neutral-900 px-4 py-2 outline-none"
                             placeholder="Search"
