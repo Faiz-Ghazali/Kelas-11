@@ -1,6 +1,7 @@
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
+import Card from './components/Card.jsx'
 function Halo() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Halo />
       <Hero />
       <Footer />
+      <Card />
 
     </>
   )
