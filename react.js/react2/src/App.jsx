@@ -2,7 +2,7 @@ import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import Card from './components/Card.jsx'
-import Profile
+import ProfilePengguna from './components/ProfilPengguna.jsx'
 function Halo() {
   return (
     <>
@@ -20,7 +20,8 @@ function App() {
       <Hero />
       <Footer />
       <Card />
-      <Pr
+      <ProfilePengguna nama="John Doe" usia="30" pekerjaan="Software Engineer" />
+      <ProfilePengguna nama="Jane Smith" usia="28" pekerjaan="Designer" />
 
     </>
   )
