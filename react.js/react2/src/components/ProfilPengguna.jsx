@@ -1,12 +1,12 @@
 import React from 'react'
 
-function ProfilPengguna(props) {
+function ProfilPengguna({ name, role}) {
   return (
     <div>
       <React.Fragment>
-        <p>Nama: {props.nama}</p>
-        <p>Usia: {props.usia}</p>
-        <p>Pekerjaan: {props.pekerjaan}</p>
+        <p>Nama: {name}</p>
+        <p>Usia: {role}</p>
+        <p>Pekerjaan: {role}</p>
       </React.Fragment>
     </div>
   )
