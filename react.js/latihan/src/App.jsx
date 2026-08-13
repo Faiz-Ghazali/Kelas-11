@@ -12,7 +12,7 @@ function App() {
         <p>Tidak ada santri untuk ditampilkan.</p>
       ) : (
         santris.map((santri) => (
-          <ProfilePengguna
+          <ListData
             key={santri.id}
             name={santri.name}
             kelas={santri.kelas}
