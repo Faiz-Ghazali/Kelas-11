@@ -7,7 +7,7 @@ function ListData({ name, kelas, hobi, aktif }) {
         <p>Nama: {name}</p>
         <p>Kelas: {kelas}</p>
         <p>Hobi: {hobi}</p>
-        <p>Aktif: {aktif ? 'Ya' : 'Tidak'}</p>
+        <p>Aktif: {aktif ? 'Aktif' : 'Tidak Aktif'}</p>
       </React.Fragment>
     </div>
   )
