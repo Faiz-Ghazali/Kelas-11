@@ -4,10 +4,12 @@ function ListData({ name, kelas, hobi, aktif }) {
   return (
     <div>
       <React.Fragment>
+        ============================
         <p>Nama: {name}</p>
         <p>Kelas: {kelas}</p>
         <p>Hobi: {hobi}</p>
-        <p>Aktif: {aktif ? 'Aktif' : 'Tidak Aktif'}</p>
+        <p>Status: {aktif ? 'Aktif' : 'Tidak Aktif'}</p>
+        ============================
       </React.Fragment>
     </div>
   )
