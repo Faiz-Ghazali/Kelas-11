@@ -1,15 +1,16 @@
 import React from 'react'
 
-function ProfilPengguna({ name, role}) {
+function ListData({ name, kelas, hobi, aktif }) {
   return (
     <div>
       <React.Fragment>
         <p>Nama: {name}</p>
-        <p>Usia: {role}</p>
-        <p>Pekerjaan: {role}</p>
+        <p>Kelas: {kelas}</p>
+        <p>Hobi: {hobi}</p>
+        <p>Aktif: {aktif ? 'Ya' : 'Tidak'}</p>
       </React.Fragment>
     </div>
   )
 }
 
-export default ProfilPengguna
+export default ListData

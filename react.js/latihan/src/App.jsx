@@ -1,8 +1,6 @@
-
-import ProfilePengguna from './components/ProfilPengguna.jsx'
-
+import ListData from './components/ListData'
 function App() {
-  const students = [
+  const santris = [
     { id: 1, name: 'Ahmad', kelas: 12, hobi:'coding', aktif: true },
     { id: 2, name: 'Ali', kelas: 11, hobi:'membaca', aktif: false },
     { id: 3, name: 'Umar', kelas: 10, hobi:'Olahraga', aktif: true },
@@ -10,15 +8,16 @@ function App() {
 
   return (
     <div>
-      {students.length === 0 ? (
-        <p>Tidak ada siswa untuk ditampilkan.</p>
+      {santris.length === 0 ? (
+        <p>Tidak ada santri untuk ditampilkan.</p>
       ) : (
-        students.map((student) => (
+        santris.map((santri) => (
           <ProfilePengguna
-            key={student.id}
-            id={student.id}
-            name={student.name}
-            role={student.role}
+            key={santri.id}
+            name={santri.name}
+            kelas={santri.kelas}
+            hobi={santri.hobi}
+            aktif={santri.aktif}
           />
         ))
       )}
@@ -27,6 +26,3 @@ function App() {
 }
 
 export default App
-
-// Catatan: Untuk mengganti nama import default, gunakan:
-// import { default as HeroComponent } from './components/Hero.jsx'
