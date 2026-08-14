@@ -1,10 +1,11 @@
 import React from 'react'
-
+import { useState } from 'react'
 function Dasar() {
-let angka = 0;
+const [angka, setAngka] = useState(0);
 function tambah() {
-    angka = angka +1;
-    console.log(angka)
+    angka = angka + 1;
+    console.log(angka);
+    setAngka(angka + 1);
 }
   return (
     <div>
