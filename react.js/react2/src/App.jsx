@@ -1,16 +1,17 @@
-
-import ProfilePengguna from './components/ProfilPengguna.jsx'
+import Basic from './useRef/Basic.jsx'
+// import ProfilePengguna from './components/ProfilPengguna.jsx'
 
 function App() {
-  const students = [
-    // { id: 1, name: 'Budi', role: 'Ketua' },
-    // { id: 2, name: 'Siti', role: 'Wakil Ketua' },
-    // { id: 3, name: 'Ayu', role: 'Sekretaris' },
-  ]
+  // const students = [
+  //   // { id: 1, name: 'Budi', role: 'Ketua' },
+  //   // { id: 2, name: 'Siti', role: 'Wakil Ketua' },
+  //   // { id: 3, name: 'Ayu', role: 'Sekretaris' },
+  // ]
 
   return (
     <div>
-      {students.length === 0 ? (
+      <Basic />
+      {/* {students.length === 0 ? (
         <p>Tidak ada siswa untuk ditampilkan.</p>
       ) : (
         students.map((student) => (
@@ -21,7 +22,7 @@ function App() {
             role={student.role}
           />
         ))
-      )}
+      )} */}
     </div>
   )
 }
