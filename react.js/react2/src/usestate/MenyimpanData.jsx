@@ -1,5 +1,4 @@
-import React from 'react'
-
+import  { useState } from 'react'
 function MenyimpanData() {
 
     const [Angka, setAngka] = useState(0);
