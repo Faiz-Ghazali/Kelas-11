@@ -1,15 +1,16 @@
-function LoginForm() {
+import {useRef} from  'react';
+function LoginFormWithUseReff() {
   
     
-    const handlerSubmit = (event) => {
-      event.preventDefault();
-      console.log(event.target.elements.Username.value);
-      console.log(event.target.elements.password.value);
+    const UsernameRef = useRef();
+    const handlerSubmit = (e) => {
+      e.preventDefault();
+      console.log(UsernameRef.current.value);
     }
     return (
     <div>
         <form onSubmit={handlerSubmit}>
-        <input type="text" name="Username" className="border border-amber-300"/>
+        <input type="text" name="Username" className="border border-amber-300" ref={UsernameRef}/>
         <input type="password" name="password" className="border border-amber-800"/>
         <button type="submit" className="border border-amber-200">Login</button>
         </form>
@@ -17,5 +18,5 @@ function LoginForm() {
   )
 }
 
-export default LoginForm
+export default LoginFormWithUseReff
 //! Uncontrolled component adalah input yang nilainya dikontrol oleh DOM bukan oleh React UseState
