@@ -5,6 +5,7 @@
 // import LoginFormWithUseReff from './formUncontrolledVsControlled/LoginFormWithUseReff.jsx'
 // import LoginForm from './formUncontrolledVsControlled/LoginForm.jsx'
 // import PraktikTwo from './usestate/PraktikTwo.jsx'
+import LoginFormControlled from "./formUncontrolledVsControlled/LoginFormControlled"
 function AppUseState() {
   return (
     <div>
@@ -14,7 +15,7 @@ function AppUseState() {
       {/* <PraktikTwo /> */}
       {/* <LoginForm /> */}
       {/* <LoginFormWithUseReff /> */}
-      
+      <LoginFormControlled />
     </div>
   )
 }
