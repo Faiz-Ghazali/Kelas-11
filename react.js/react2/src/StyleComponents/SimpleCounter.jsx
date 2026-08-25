@@ -1,10 +1,12 @@
 import { Button } from 'radix-ui/toolbar'
+import { useState } from 'react'
 function SimpleCounter() {
+    const [count, setCount] = useState(0);
   return (
     <div>
-      <p>Count: 0</p>
-      <Button>+</Button>
-      <Button>-</Button>
+      <p>Count: {count}</p>
+      <Button onClick={() => setCount(count + 1)}>+</Button>
+      <Button onClick={() => setCount(count - 1)}>-</Button>
     </div>
   )
 }

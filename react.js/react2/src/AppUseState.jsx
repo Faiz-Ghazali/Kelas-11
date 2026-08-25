@@ -6,7 +6,8 @@
 // import LoginForm from './formUncontrolledVsControlled/LoginForm.jsx'
 // import PraktikTwo from './usestate/PraktikTwo.jsx'
 // import LoginFormControlled from "./formUncontrolledVsControlled/LoginFormControlled"
-import RadixPrimitives from './StyleComponents/RadixPrimitives.jsx'
+// import RadixPrimitives from './StyleComponents/RadixPrimitives.jsx'
+import SimpleCounter from './StyleComponents/SimpleCounter.jsx'
 function AppUseState() {
   return (
     <div>
@@ -17,7 +18,8 @@ function AppUseState() {
       {/* <LoginForm /> */}
       {/* <LoginFormWithUseReff /> */}
       {/* <LoginFormControlled /> */}
-      <RadixPrimitives />
+      {/* <RadixPrimitives /> */}
+      <SimpleCounter />
 
     </div>
   )
