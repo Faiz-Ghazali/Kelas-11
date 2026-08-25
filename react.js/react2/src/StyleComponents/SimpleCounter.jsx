@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react'
 function SimpleCounter() {
     const [count, setCount] = useState(0);
     useEffect(() => {
-        console.log(`Count berubah menjadi: ${count}`)
+        if(count > 0) {
+            alert(`Score berubah dari angka ${count} ke angka: ${count}`)
+        }
     }, [count]);
   return (
     <div>
