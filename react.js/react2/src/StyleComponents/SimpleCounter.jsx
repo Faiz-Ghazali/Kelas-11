@@ -4,7 +4,7 @@ function SimpleCounter() {
     const [count, setCount] = useState(0);
     useEffect(() => {
         console.log(`Count berubah menjadi: ${count}`)
-    }, []);
+    }, [count]);
   return (
     <div>
       <p>Count: {count}</p>
