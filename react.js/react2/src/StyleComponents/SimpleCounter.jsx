@@ -1,4 +1,4 @@
-import { Button } from '@radix-ui/themes';
+import { Toast } from "radix-ui";
 import { useState, useEffect } from 'react'
 function SimpleCounter() {
     const [count, setCount] = useState(0);
@@ -8,8 +8,18 @@ function SimpleCounter() {
   return (
     <div>
       <p>Count: {count}</p>
-      <Button onClick={() => setCount(count + 1)}>+</Button>
-      <Button onClick={() => setCount(count - 1)}>-</Button>
+      <button onClick={() => setCount(count + 1)}>+</button>
+      <button onClick={() => setCount(count - 1)}>-</button>
+      <Toast.Provider>
+		<Toast.Root>
+			<Toast.Title />
+			<Toast.Description />
+			<Toast.Action />
+			<Toast.Close />
+		</Toast.Root>
+
+		<Toast.Viewport />
+	</Toast.Provider>
     </div>
   )
 }
