@@ -1,10 +1,12 @@
-
+import { Link } from "react-router"
 function Home() {
   return (
-    <div>
+    <>
+      <Link to="/about"> About</Link>
+      <a target="_blank" href="google.com" />
       <h1>Welcome to the Home Page</h1>
       <p>This is a simple home page.</p>
-    </div>
+    </>
   )
 }
 
