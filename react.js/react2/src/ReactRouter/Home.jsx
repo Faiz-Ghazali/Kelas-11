@@ -11,12 +11,11 @@ function Home() {
         Home
       </NavLink>
 
-      {" | "}
-
-                <NavLink
+        
+        <NavLink
             to="/about"
             className={({ isActive }) =>
-                isActive ? "active" : ""
+                isActive ? "active" : "text-red-600"
             }
             >
             About
