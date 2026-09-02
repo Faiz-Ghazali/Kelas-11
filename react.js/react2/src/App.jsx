@@ -1,10 +1,12 @@
-import {RouterProvider} from "react-router";
-import router from './router'
+// import {RouterProvider} from "react-router";
+// import {router} from './router'
+import Home from './learnUseContext/Home.jsx'
 function App() {
 
   return (
     <div>
-      <RouterProvider router={router} />
+      {/* <RouterProvider router={router} /> */}
+      <Home />
     </div>
   )
 }
