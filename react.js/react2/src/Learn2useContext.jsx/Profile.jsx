@@ -2,9 +2,8 @@ import ProfileDetail from './ProfileDetail';
 
 function Profile() {
   return (
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <h2 className="text-xl font-semibold mb-2">Komponen Profile</h2>
-      {/* Komponen ProfileDetail dipanggil langsung tanpa props */}
+    <div className="p-4 border border-gray-300 rounded bg-gray-50 my-2">
+      <h2 className="text-xl font-semibold mb-2">Komponen Profile (Perantara)</h2>
       <ProfileDetail />
     </div>
   );
