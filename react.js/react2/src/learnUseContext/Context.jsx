@@ -2,7 +2,7 @@ import { createContext } from 'react'
 import About from './About.jsx'
 function Context() {
     const AboutContext = createContext();
-    const title = "About Page";
+    const title = "Tentang Website";
   return (
     <>
     <AboutContext.Provider value={title}>

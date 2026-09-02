@@ -1,7 +1,7 @@
-import { useContext } from "react";
+import { createContext } from "react";
 import AboutContext from "./AboutContext.jsx";
 function About() {
-  const abouttitle = useContext(AboutContext);
+  const abouttitle = createContext(AboutContext);
   return (
     <div>
       <h1>{abouttitle}</h1>
