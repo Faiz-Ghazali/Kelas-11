@@ -1,6 +1,6 @@
 // import {RouterProvider} from "react-router";
 // import {router} from './router'
-import AboutContext from './AboutContext';
+import AboutContext from './learnUseContext/ABoutCOntext.jsx';
 function App() {
 
   return (

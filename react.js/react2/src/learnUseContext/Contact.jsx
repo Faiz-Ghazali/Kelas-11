@@ -1,13 +1,14 @@
-import { useContext } from 'react'
+import { createContext } from 'react'
 import AboutContext from './AboutContext.jsx'
+import Testimonial from './Testimonial.jsx'
+
 function Context() {
-    const abouttitle = useContext(AboutContext);
+    const [title, setTitle] = createContext(AboutContext);
   return (
     <>
-    <div className="p-4 border border-gray-300 rounded-lg max-w-sm">
-      <h2 className="text-xl font-semibold">Profil Santri</h2>
-      <p className="mt-2">Now<span className="font-bold">{abouttitle}</span></p>
-    </div>
+    <AboutContext.Provider value={{ title, setTitle }}>
+        <Testimonial />
+    </AboutContext.Provider>
     </>
   )
 }
