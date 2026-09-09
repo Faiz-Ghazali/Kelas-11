@@ -1,3 +1,6 @@
+import { Checkbox } from "@/components/ui/checkbox"
+import { Field, FieldGroup, FieldLabel } from "@/components/ui/field"
+
 function About() {
   return (
     <div className="mx-auto max-w-3xl p-8">
@@ -6,6 +9,14 @@ function About() {
         We are a small team passionate about learning, creating, and sharing
         meaningful digital experiences.
       </p>
+      <FieldGroup className="mx-auto w-56">
+      <Field orientation="horizontal">
+        <Checkbox id="terms-checkbox-basic" name="terms-checkbox-basic" />
+        <FieldLabel htmlFor="terms-checkbox-basic">
+          Accept terms and conditions
+        </FieldLabel>
+      </Field>
+    </FieldGroup>
       <p className="mb-4 text-base leading-7 text-gray-600">
         Our mission is to make technology easier to understand and more useful
         for everyday people.
@@ -15,6 +26,7 @@ function About() {
         growth and innovation.
       </p>
     </div>
+    
   );
 }
 

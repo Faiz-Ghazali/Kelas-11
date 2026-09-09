@@ -26,8 +26,8 @@ function SantriLayout() {
           Nilai
         </NavLink>
 
-        <NavLink to="/santri/absensi" className={navLinkClass}>
-          Absensi
+        <NavLink to="/santri/list" className={navLinkClass}>
+          List
         </NavLink>
       </nav>
 

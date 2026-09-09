@@ -1,4 +1,4 @@
-import SantriCard from '@/components/SantriCard';
+import SantriCard from './SantriCard';
 
 function SantriList() {
   const santries = [
