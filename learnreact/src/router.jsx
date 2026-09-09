@@ -6,6 +6,8 @@ import Santri from "./pages/Santri";
 import SantriLayout from "./layouts/SantriLayout";
 import SantriNilai from "./pages/Santri/SantriNilai";
 import SantriAbsensi from "./pages/Santri/SantriAbsensi";
+import SantriList from "./pages/Santri/SantriList"
+import SantriDetail from './pages/Santri/SantriDetail'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,6 +32,19 @@ const router = createBrowserRouter([
           {
             path: "nilai",
             element: <SantriNilai />,
+          },
+          {
+            path:"list",
+            children: [
+                {
+                    index: true,
+                    element:<SantriList />,
+                },
+                {
+                    path: ':santri_id',
+                    element: <SantriDetail />,
+                },
+            ]
           },
           {
             path: "absensi",
