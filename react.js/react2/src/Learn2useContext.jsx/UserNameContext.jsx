@@ -1,3 +1,3 @@
-import { createContext } from 'react';
-const UserNameContext = createContext();
+import { createContext } from "react";
+const UserNameContext = createContext('');
 export default UserNameContext;

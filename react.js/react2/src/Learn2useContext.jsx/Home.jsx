@@ -1,20 +1,17 @@
-// import { useState } from 'react';
-import UserNameContext from './UserNameContext';
-import ProfileDetail from './ProfileDetail';
-import Profile from './Profile';
+import { useState } from "react";
+import UserNameContext from "./UserNameContext";
+import ProfileDetail from "./ProfileDetail";
+import Profile from "./Profile";
 function Home() {
-    const nama = "Faiz";
+  const [name, setName] = useState("faiz");
   return (
-    
-      <>
-      <Profile />
-      <UserNameContext.Provider value={nama}>
-      <ProfileDetail />
+    <>
+      <Profile />`
+      <UserNameContext.Provider value={{name, setName}}>
+        <ProfileDetail />
       </UserNameContext.Provider>
-      </>
-      
-    
-  )
+    </>
+  );
 }
 
-export default Home
+export default Home;
