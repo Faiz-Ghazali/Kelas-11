@@ -1,28 +1,29 @@
 import { createBrowserRouter } from "react-router";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import AppLayout from "./layouts/AppLayout";
-import Santri from "./pages/Santri";
+import Home from "./pages/Admin/Home";
+import About from "./pages/Admin/About";
+// import AppLayout from "./layouts/AppLayout";
+import Santri from "./pages/Admin/Santri";
 import SantriLayout from "./layouts/SantriLayout";
-import SantriNilai from "./pages/Santri/SantriNilai";
-import SantriAbsensi from "./pages/Santri/SantriAbsensi";
-import SantriList from "./pages/Santri/SantriList"
-import SantriDetail from './pages/Santri/SantriDetail'
+import SantriNilai from "./pages/Admin/Santri/SantriNilai";
+import SantriAbsensi from "./pages/Admin/Santri/SantriAbsensi";
+import SantriList from "./pages/Admin/Santri/SantriList";
+import SantriDetail from "./pages/Admin/Santri/SantriDetail";
+import App from "./App";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <AppLayout />,
+    element: <App />,
     children: [
       {
         index: true,
         element: <Home />,
       },
       {
-        path: "/about",
+        path: "about",
         element: <About />,
       },
       {
-        path: "/santri",
+        path: "santri",
         element: <SantriLayout />,
         children: [
           {
@@ -34,17 +35,17 @@ const router = createBrowserRouter([
             element: <SantriNilai />,
           },
           {
-            path:"list",
+            path: "list",
             children: [
-                {
-                    index: true,
-                    element:<SantriList />,
-                },
-                {
-                    path: ':santri_id',
-                    element: <SantriDetail />,
-                },
-            ]
+              {
+                index: true,
+                element: <SantriList />,
+              },
+              {
+                path: ":santri_id",
+                element: <SantriDetail />,
+              },
+            ],
           },
           {
             path: "absensi",

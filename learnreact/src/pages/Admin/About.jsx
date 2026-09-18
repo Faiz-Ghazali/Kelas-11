@@ -9,14 +9,7 @@ function About() {
         We are a small team passionate about learning, creating, and sharing
         meaningful digital experiences.
       </p>
-      <FieldGroup className="mx-auto w-56">
-      <Field orientation="horizontal">
-        <Checkbox id="terms-checkbox-basic" name="terms-checkbox-basic" />
-        <FieldLabel htmlFor="terms-checkbox-basic">
-          Accept terms and conditions
-        </FieldLabel>
-      </Field>
-    </FieldGroup>
+      
       <p className="mb-4 text-base leading-7 text-gray-600">
         Our mission is to make technology easier to understand and more useful
         for everyday people.
@@ -25,6 +18,14 @@ function About() {
         Through creativity and dedication, we build solutions that inspire
         growth and innovation.
       </p>
+      <FieldGroup className="mx-auto w-56">
+      <Field orientation="horizontal">
+        <Checkbox id="terms-checkbox-basic" name="terms-checkbox-basic" />
+        <FieldLabel htmlFor="terms-checkbox-basic">
+          Accept terms and conditions
+        </FieldLabel>
+      </Field>
+    </FieldGroup>
     </div>
     
   );

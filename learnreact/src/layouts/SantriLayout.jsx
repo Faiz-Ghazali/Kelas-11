@@ -18,15 +18,15 @@ function SantriLayout() {
       </header>
 
       <nav className="inline-flex h-8 items-center justify-center rounded-lg bg-muted p-1 text-muted-foreground mt-4 w-fit">
-        <NavLink to="/santri" className={navLinkClass}>
+        <NavLink to="./" className={navLinkClass}>
           Daftar
         </NavLink>
 
-        <NavLink to="/santri/nilai" className={navLinkClass}>
+        <NavLink to="./nilai" className={navLinkClass}>
           Nilai
         </NavLink>
 
-        <NavLink to="/santri/list" className={navLinkClass}>
+        <NavLink to="./list" className={navLinkClass}>
           List
         </NavLink>
       </nav>

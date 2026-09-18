@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SantriNilai() {
+function DashboardAdmin() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function SantriNilai() {
   )
 }
 
-export default SantriNilai
+export default DashboardAdmin

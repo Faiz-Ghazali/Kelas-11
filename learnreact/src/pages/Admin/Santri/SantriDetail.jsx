@@ -7,7 +7,7 @@ function SantriDetail() {
     <div>
       <header className='flex flex-col gap-1'>
         <Link
-          to='/santri/list'
+          to='/admin/santri/list'
           className='text-[10px] text-gray-500'>
           Kembali ke sebelumnya
         </Link>
