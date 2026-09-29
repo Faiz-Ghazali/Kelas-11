@@ -13,13 +13,13 @@
 //   SidebarProvider,
 //   SidebarTrigger,
 // } from "./components/ui/sidebar";
-import DashBoardUser from "./learnZustand/DashboardUser";
+// import DashBoardUser from "./learnZustand/DashboardUser";
 // const sidebarItems = [
 //   { title: "Dashboard", url: "#dashboard" },
 //   { title: "Projects", url: "#projects" },
 //   { title: "Settings", url: "#settings" },
 // ];
-
+import DashboardUser from "./learnReactHookForm/DashboardUser";
 function App() {
   return (
     // <SidebarProvider>
@@ -57,7 +57,8 @@ function App() {
     //     <Field label="Name" type="text" placeholder="Enter your name" />
     //   </main>
     // </SidebarProvider>
-    <DashBoardUser />
+    // <DashBoardUser />
+      <DashboardUser />
   );
 }
 
